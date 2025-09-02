@@ -1,0 +1,32 @@
+# Ignore all
+*
+
+# Whitelist
+!/.gitignore
+!/pyproject.toml
+!/poetry.lock
+!/README.md
+!/LICENSE.txt
+
+# Apuntes
+!/notes/
+/notes/*
+!/notes/u01m01-notes-00-env-config.ipynb
+!/notes/u01m01-notes-01-llm-quickstart.ipynb
+!/notes/u02m02-notes-02-preprocessing.ipynb
+!/notes/u02m03-notes-03-docs-vectorization.ipynb
+
+# Prácticas
+!/labs/
+/labs/*
+!/labs/u02m02-lab-02-preprocessing.ipynb
+!/labs/u02m03-lab-03-eda.ipynb
+
+# Dataset
+!/data/
+/data/*
+!/data/corpus-wiki-arg.jsonl
+!/data/corpus-wiki-arg.datasheet.md
+
+# Images
+!/imgs/
